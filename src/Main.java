@@ -51,6 +51,9 @@ public class Main {
 
         gerenciarEmpregados.removerEmpregado(empregado2);
 
+        System.out.println("-APÓS REMOVER EMPREGADO 2-");
+        gerenciarEmpregados.listarEmpregados();
+
 
     }
 }
